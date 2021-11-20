@@ -1,0 +1,73 @@
+CRUD - JDBC
+
+SETUP PROJECT:
+
+1. Create Packages: MODEL, CONTROLLER, VIEW, UTILS
+2. Add Classes to Packages:
+    - Model: 
+            Stock.java
+            Quality.java (ENUM class)
+    - Controller: 
+            StockDao.java
+    - Util:
+            DatabaseConnector.java
+    - View:
+            StockManager.java (JFrameForm)
+            
+3. Add components to the JFrameFrom -> StockManager.java
+   + Change Variable names for components
+4. Add JDBC Library
+
+*****
+
+CONNECTION TO DATABASE
+
+5. Add code to DatabaseConnector.java Class from Util Package.
+6. Create Database & Create table in the database
+7. Create a Connection in Netbeans
+8. Use the connection from netbeans to connect the database
+
+*****
+
+SAVING
+
+9. Add code for the Stock.java Class and the Quality.java classes
+10. Add code for the StockDao.java Class
+    - Save Method
+ 
+*****    
+    
+SAVE CODE & RESET
+    
+11. Add Code for the user Interface.
+    - Save Button
+    - Reset Button
+    
+*****
+
+DISPLAY DATA    
+    
+    - Display in table method
+    - Mouse Clicked event
+
+*****
+
+OTHER FUNCTIONALITIES
+
+    - Update Method
+    - Delete Method
+
+*****    
+
+UPDATE  
+    
+    - Update Method
+
+*****
+
+DELETE
+
+    - Delete Method 
+    
+    
+END!!!    
